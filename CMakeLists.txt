@@ -4,3 +4,4 @@ project(design_patterns)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Werror -std=c++11")
 
 add_executable(proxy proxy.cpp)
+add_executable(memento memento.cpp)
